@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#black-div{
+    background-color: #000000;
+}
+
+/*Navigation Bar*/
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    top:0;
+    padding: 1rem;
+    background:#000000;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul a {
+    color:rgb(255, 255, 255);
+    padding:0.75rem;
+    margin:0 0.25rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#navbar ul a:hover{
+    background:#ffffff;
+    border-radius: 0.25rem;
+    color: black;
+}
+
+img{
+    height: 70px;
+    object-fit: cover;
+    align-items: flex-start;
+    border-radius: 30px;
+}
+
+#home-bigshow{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+#home-bigshow:hover {
+    cursor:pointer;
+}
+
+/*Showcase*/
+#showcase{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.85;
+    font-family: 'Impact','Anton', sans-serif;
+}
+
+video{
+    height:70vmin;
+    width: 200vmin;
+}
+
+.subtext{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 50;
+}
+
+.subHeadings{
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    font-weight: 50;
+}
+
+/*What we do */
+.what-we-do{
+    padding: 50px 20px;
+}
+
+.what-we-do h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.service {
+    background: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.icon {
+    background: #e9e6e6;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.icon i {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.service h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #555;
+}
+
+/*Our Sports */
+.our-sports{
+    padding:50px 20px;
+}
+
+.sports-icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.sport{
+    text-align: center;
+}
+
+.sport img{
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
+
+.sport p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/*footer*/
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a{
+    text-align: left;
+    color: #9f9e9e;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer a:hover{
+    color:white;
+}
+
+.footer-style{
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+#country{
+    text-align: right;
+}
