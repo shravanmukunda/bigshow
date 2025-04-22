@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="tournaments.css">
+    <script src="https://kit.fontawesome.com/ab5fd714ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="black-div">
+    <nav id="navbar">
+        <a id="home-bigshow" href="index.html"><img src="assets/bigshow (2).png" id="homeButton"></a>
+        <ul> 
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tournaments.html">Tournaments</a></li>
+          <li><a href="#aboutUs">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </nav>
+
+      <section id="showcase">
+        <div class="showcase-content">
+          <div class="counter-container">
+            <div class="counter-item">
+              <span class="counter" data-target="15">0</span><span class="counter-plus">+</span>
+              <p>Events Organised</p>
+            </div>
+            <div class="counter-item">
+              <span class="counter" data-target="5">0</span><span class="counter-plus">+</span>
+              <p>Sports</p>
+            </div>
+            <div class="counter-item">
+              <span class="counter" data-target="10000">0</span><span class="counter-plus">+</span>
+              <p>Participants</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero">
+        <div class="container">
+            <h2>Transforming Sports Events Into Unforgettable Experiences</h2>
+            <p>Seamless organization, professional management, and memorable tournaments</p>
+            <a href="#contact" class="cta-button">Book Your Tournament</a>
+        </div>
+    </section>
+
+    <section id="tournaments" class="tournaments">
+        <div class="container">
+            <h2 class="section-title">Our Tournaments</h2>
+            <p class="section-description">Explore our portfolio of successfully organized tournaments across various sports</p>
+            
+            <div class="tournament-filters">
+                <button class="filter-btn active" data-filter="all">All Sports</button>
+                <button class="filter-btn" data-filter="basketball">Basketball</button>
+                <button class="filter-btn" data-filter="soccer">Soccer</button>
+                <button class="filter-btn" data-filter="table-tennis">Table-Tennis</button>
+                <button class="filter-btn" data-filter="volleyball">Volleyball</button>
+                <button class="filter-btn" data-filter="Sports-Fest">Sports Fests</button>
+            </div>
+
+            <div class="tournaments-grid" id="tournamentsGrid">
+                <!-- Tournament cards will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Tournament Planning</h3>
+                    <p>Comprehensive planning from concept to execution</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Venue Selection</h3>
+                    <p>Access to premier venues suited to your tournament needs</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Participant Management</h3>
+                    <p>Streamlined registration and team coordination</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-camera"></i>
+                    <h3>Event Coverage</h3>
+                    <p>Professional photography and live streaming services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <p>"The team at Elite Tournament Organizers delivered beyond our expectations. Our basketball tournament was flawlessly executed."</p>
+                    <h4>- Regional Sports Authority</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Professional, responsive, and detail-oriented. The perfect partner for our annual corporate soccer challenge."</p>
+                    <h4>- Global Tech Company</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"From venue selection to award ceremony, every detail was handled with excellence. Will definitely work with them again!"</p>
+                    <h4>- University Athletics Department</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Ready to Host Your Tournament?</h2>
+            <p>Get in touch with our team to discuss your event requirements</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <select id="sportType" name="sportType">
+                        <option value="">Select Sport Type</option>
+                        <option value="basketball">Basketball</option>
+                        <option value="soccer">Soccer</option>
+                        <option value="tennis">Tennis</option>
+                        <option value="volleyball">Volleyball</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Tell us about your tournament" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Elite Tournament Organizers</h3>
+                    <p>Creating exceptional sporting experiences since 2010</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#tournaments">Tournaments</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@elitetournaments.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Sports Avenue, City, ST 12345</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elite Tournament Organizers. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="tournament-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-tournament-details"></div>
+        </div>
+    </div>
+  
+    </div>
+</div>
+
+<script src="tournaments.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const counters = document.querySelectorAll('.counter');
+  const speed = 400; // The lower the value, the faster the animation
+  
+  counters.forEach(counter => {
+    const target = +counter.getAttribute('data-target');
+    const increment = target / speed;
+    
+    const updateCount = () => {
+      const count = +counter.innerText;
+      
+      if (count < target) {
+        // For larger numbers like 10000, increase by larger increments
+        const newValue = count + Math.ceil(increment);
+        counter.innerText = newValue > target ? target : newValue;
+        setTimeout(updateCount, 1);
+      } else {
+        counter.innerText = target;
+      }
+    };
+    
+    updateCount();
+  });
+});
+</script>
+</body>
+</html>

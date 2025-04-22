@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Photo Gallery</title>
+    <link rel="stylesheet" href="photos.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <a id="home-bigshow" href="../index.html"><img src="../../assets/bigshow (2).png"></a>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../tournaments.html">Tournaments</a></li>
+          <li><a href="#aboutUs">About Us</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="photos_page/photos.html">Photos</a></li>
+      </ul>
+      </nav>
+    <header>
+        <h1>Sports Photo Gallery</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#badminton">Badminton</a></li>
+                <li><a href="#table-tennis">Table Tennis</a></li>
+                <li><a href="#volleyball">Volleyball</a></li>
+                <li><a href="#basketball">Basketball</a></li>
+                <li><a href="#athletics">Athletics</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="badminton" class="gallery-section">
+            <h2>Badminton</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="photos/baddy1.JPG" alt="Badminton player smashing" data-title="Badminton Smash">
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/baddy2.JPG" alt="Badminton doubles match" data-title="Doubles Match">
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/baddy3.JPG" alt="Badminton net and court" data-title="Badminton Court">
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/baddy4.JPG" alt="Badminton racket and shuttlecock" data-title="Equipment">
+                </div>
+            </div>
+        </section>
+
+        <section id="table-tennis" class="gallery-section">
+            <h2>Table Tennis</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="photos/tt1.jpeg" alt="Table tennis match" data-title="Match Point">
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/tt2.JPG" alt="Table tennis serve" data-title="The Serve">
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/tt3.JPG" alt="Table tennis paddle and ball" data-title="Equipment">
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/tt4.JPG" alt="Table tennis tournament" data-title="Tournament">
+                </div>
+            </div>
+        </section>
+
+        <section id="volleyball" class="gallery-section">
+            <h2>Volleyball</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="photos/volley1.JPG" alt="Volleyball spike" data-title="The Spike">
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/volley2.JPG" alt="Volleyball block" data-title="The Block">
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/volley3.JPG" alt="Beach volleyball" data-title="Beach Volleyball">
+                </div>
+                <div class="gallery-item">
+                    <img src="" alt="Volleyball team" data-title="Team Celebration">
+                </div>
+            </div>
+        </section>
+
+        <section id="basketball" class="gallery-section">
+            <h2>Basketball</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="photos/baske.JPG" alt="Basketball dunk" data-title="The Dunk">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/600/400" alt="Basketball three-point shot" data-title="Three-Pointer">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/600/400" alt="Basketball defense" data-title="Defense">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/600/400" alt="Basketball team huddle" data-title="Team Huddle">
+                </div>
+            </div>
+        </section>
+
+        <section id="athletics" class="gallery-section">
+            <h2>Athletics</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="/api/placeholder/600/400" alt="100m sprint" data-title="100m Sprint">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/600/400" alt="Long jump" data-title="Long Jump">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/600/400" alt="High jump" data-title="High Jump">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/600/400" alt="Javelin throw" data-title="Javelin Throw">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal" class="modal">
+        <span class="close-button">&times;</span>
+        <div class="modal-content">
+            <img id="modal-img" src="" alt="">
+            <h3 id="modal-title"></h3>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Sports Photo Gallery</p>
+    </footer>
+
+    <script src="photos.js"></script>
+</body>
+</html>
