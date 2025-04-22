@@ -101,7 +101,7 @@ const tournaments = [
     },
     {
         id: 6,
-        name: "Bigshow Junior Badminton Tournament",
+        name: "Bigshow Junior and Senior Badminton Tournament",
         sport: "badminton",
         location: "Twin Bee Sports Arena, Nagarbhavi",
         date: "October 29, 2023",
@@ -111,7 +111,69 @@ const tournaments = [
             "Family-friendly environment",
             "Youth and adult divisions",
             "Community vendors and entertainment",
-            "Fundraising for local charities"
+        ],
+        gallery: [
+            "/api/placeholder/300/200",
+            "/api/placeholder/300/200",
+            "/api/placeholder/300/200",
+            "/api/placeholder/300/200"
+        ]
+    },
+    {
+        id: 7,
+        name: "Bigshow Junior Badminton Tournament",
+        sport: "badminton",
+        location: "RG Royal Sports Club",
+        date: "November 26, 2023",
+        description: "A grassroots badminton tournament bringing together community players of all ages and skill levels.",
+        image: "assets/RG2.png",
+        highlights: [
+            "Family-friendly environment",
+            "Youth and adult divisions",
+            "Community vendors and entertainment",
+        ],
+        gallery: [
+            "/api/placeholder/300/200",
+            "/api/placeholder/300/200",
+            "/api/placeholder/300/200",
+            "/api/placeholder/300/200"
+        ]
+    },
+    {
+        id: 8,
+        name: "Bigshow Football Championship",
+        sport: "football",
+        location: "RG Royal Sports Club",
+        date: "June 11, 2023",
+        description: "An inter school football championship bringing together community players of all ages and skill levels.",
+        image: "assets/football1.png",
+        highlights: [
+            "Family-friendly environment",
+            "Competitive matches",
+            "Youth and adult divisions",
+            "Community vendors and entertainment",
+        ],
+        gallery: [
+            "/api/placeholder/300/200",
+            "/api/placeholder/300/200",
+            "/api/placeholder/300/200",
+            "/api/placeholder/300/200"
+        ]
+    },
+    {
+        id: 9,
+        name: "Karnataka Sports Fest",
+        sport: "Sports-Fest",
+        location: "Bangalore",
+        date: "August, 2024",
+        description: "An inter school Sports Fest bringing together community players of all ages and skill levels.",
+        image: "assets/ksf1.png",
+        highlights: [
+            "5 Sports including Badminton, Volleyball, Basketball, Athletics, Football",
+            "Family-friendly environment",
+            "Competitive matches",
+            "Multiple Sponsors like Bounce, Max-Protien and Wonderla",
+            "Community vendors and entertainment",
         ],
         gallery: [
             "/api/placeholder/300/200",
