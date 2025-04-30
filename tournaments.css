@@ -93,15 +93,15 @@
 .counter-item p {
     margin-top: 10px;
     font-size: 1.2rem;
-    color: #ff6600;
+    color: #ff0000;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 /* Global Styles */
 :root {
-    --primary-color: #0066cc;
-    --secondary-color: #ff6600;
+    --primary-color: #000000;
+    --secondary-color: #ff0000;
     --dark-color: #1a1a1a;
     --light-color: #f8f9fa;
     --gray-color: #6c757d;
@@ -523,11 +523,11 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
     transition: var(--transition);
-    width: 100%;
+    width: 50%;
 }
 
 .submit-btn:hover {
-    background-color: #0055a8;
+    background-color: #f21c1c;
 }
 
 /* Footer */
