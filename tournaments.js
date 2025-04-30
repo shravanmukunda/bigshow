@@ -184,6 +184,24 @@ const tournaments = [
     }
 ];
 
+
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+const header = document.querySelector('#navbar');
+
+// Mobile menu toggle
+if (hamburger) {
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+}
+
+// Close mobile menu when clicking a nav item
+document.querySelectorAll('.nav-menu a').forEach(link => {
+  link.addEventListener('click', () => {
+    navMenu.classList.remove('active');
+  });
+});
 // DOM Elements
 const tournamentsGrid = document.getElementById('tournamentsGrid');
 const filterButtons = document.querySelectorAll('.filter-btn');
